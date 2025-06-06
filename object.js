@@ -11,3 +11,7 @@ const person={
         console.log("Hello!");
     }
 };
+console.log(person.name);
+console.log(person.address.city);
+console.log(person.hobbies[0]);
+person.sayHello();
